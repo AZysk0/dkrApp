@@ -38,5 +38,5 @@ jobs:
           # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           # This assumes pytest is installed via the install-package step above
-          command: ./manage.py test
+          command: python manage.py test
           name: test
